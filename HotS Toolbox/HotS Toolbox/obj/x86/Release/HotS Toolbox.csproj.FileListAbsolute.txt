@@ -1,0 +1,21 @@
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\bin\x86\Release\HotS Toolbox.exe.config
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\bin\x86\Release\HotS Toolbox.exe
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\bin\x86\Release\HotS Toolbox.pdb
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\bin\x86\Release\Heroes.ReplayParser.dll
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\bin\x86\Release\HotS.ActivityGenerator.dll
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\bin\x86\Release\MpqLib.dll
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\bin\x86\Release\HtmlAgilityPack.dll
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\bin\x86\Release\Heroes.ReplayParser.pdb
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\bin\x86\Release\HotS.ActivityGenerator.pdb
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\bin\x86\Release\HtmlAgilityPack.pdb
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\bin\x86\Release\HtmlAgilityPack.xml
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\x86\Release\HotS Toolbox.csprojResolveAssemblyReference.cache
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\x86\Release\MainWindow.baml
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\x86\Release\MainWindow.g.cs
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\x86\Release\App.g.cs
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\x86\Release\HotS Toolbox_MarkupCompile.cache
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\x86\Release\HotS Toolbox.g.resources
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\x86\Release\HotS_Toolbox.Properties.Resources.resources
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\x86\Release\HotS Toolbox.csproj.GenerateResource.Cache
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\x86\Release\HotS Toolbox.exe
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\x86\Release\HotS Toolbox.pdb

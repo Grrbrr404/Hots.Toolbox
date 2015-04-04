@@ -1,0 +1,9 @@
+D:\source\c#\Heroes.ReplayParser\Heroes.ReplayParser.ConsoleApplication\ConsoleApplication1\bin\x64\Debug\ConsoleApplication1.exe.config
+D:\source\c#\Heroes.ReplayParser\Heroes.ReplayParser.ConsoleApplication\ConsoleApplication1\bin\x64\Debug\ConsoleApplication1.exe
+D:\source\c#\Heroes.ReplayParser\Heroes.ReplayParser.ConsoleApplication\ConsoleApplication1\bin\x64\Debug\ConsoleApplication1.pdb
+D:\source\c#\Heroes.ReplayParser\Heroes.ReplayParser.ConsoleApplication\ConsoleApplication1\bin\x64\Debug\Heroes.ReplayParser.dll
+D:\source\c#\Heroes.ReplayParser\Heroes.ReplayParser.ConsoleApplication\ConsoleApplication1\bin\x64\Debug\MpqLib.dll
+D:\source\c#\Heroes.ReplayParser\Heroes.ReplayParser.ConsoleApplication\ConsoleApplication1\bin\x64\Debug\Heroes.ReplayParser.pdb
+D:\source\c#\Heroes.ReplayParser\Heroes.ReplayParser.ConsoleApplication\ConsoleApplication1\obj\x64\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+D:\source\c#\Heroes.ReplayParser\Heroes.ReplayParser.ConsoleApplication\ConsoleApplication1\obj\x64\Debug\ConsoleApplication1.exe
+D:\source\c#\Heroes.ReplayParser\Heroes.ReplayParser.ConsoleApplication\ConsoleApplication1\obj\x64\Debug\ConsoleApplication1.pdb

@@ -1,0 +1,12 @@
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\bin\Debug\HotS Toolbox.exe
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\bin\Debug\HotS Toolbox.pdb
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\Debug\MainWindow.baml
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\Debug\MainWindow.g.cs
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\Debug\App.g.cs
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\Debug\HotS Toolbox_MarkupCompile.cache
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\Debug\HotS Toolbox.g.resources
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\Debug\HotS_Toolbox.Properties.Resources.resources
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\Debug\HotS Toolbox.csproj.GenerateResource.Cache
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\Debug\HotS Toolbox.exe
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\Debug\HotS Toolbox.pdb
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\bin\Debug\HotS Toolbox.exe.config

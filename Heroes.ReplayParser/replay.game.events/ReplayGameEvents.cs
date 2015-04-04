@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System.Diagnostics;
+using System.Linq;
 
 namespace Heroes.ReplayParser
 {
@@ -322,8 +323,19 @@ namespace Heroes.ReplayParser
                                     bitReader.Read(32);
                             break;
                         case GameEventType.CCmdUpdateTargetPointEvent:
-                            gameEvent.data = new TrackerEventStructure { array = new[] { new TrackerEventStructure { unsignedInt = bitReader.Read(20) }, new TrackerEventStructure { unsignedInt = bitReader.Read(20) }, new TrackerEventStructure { vInt = bitReader.Read(32) - 2147483648 } } };
-                            break;
+                            
+							var arrayList = new List<TrackerEventStructure>();
+		                    var item = new TrackerEventStructure {unsignedInt = bitReader.Read(20)};
+ 							arrayList.Add(item);
+							item = new TrackerEventStructure {unsignedInt = bitReader.Read(20)};
+							arrayList.Add(item);
+		                    item = new TrackerEventStructure {vInt = bitReader.Read(32) - 2147483648};
+							arrayList.Add(item);
+							
+							gameEvent.data = new TrackerEventStructure { array = arrayList.ToArray() };
+							
+							
+							break;
                         case GameEventType.CCmdUpdateTargetUnitEvent:
                             gameEvent.data = new TrackerEventStructure { array = new TrackerEventStructure[7] };
                             gameEvent.data.array[0] = new TrackerEventStructure { unsignedInt = bitReader.Read(16) };
@@ -334,7 +346,17 @@ namespace Heroes.ReplayParser
                                 gameEvent.data.array[4] = new TrackerEventStructure { unsignedInt = bitReader.Read(4) };
                             if (bitReader.ReadBoolean())
                                 gameEvent.data.array[5] = new TrackerEventStructure { unsignedInt = bitReader.Read(4) };
-                            gameEvent.data.array[6] = new TrackerEventStructure { array = new[] { new TrackerEventStructure { unsignedInt = bitReader.Read(20) }, new TrackerEventStructure { unsignedInt = bitReader.Read(20) }, new TrackerEventStructure { vInt = bitReader.Read(32) - 2147483648 } } };
+                            gameEvent.data.array[6] = new TrackerEventStructure();
+		                    arrayList = new List<TrackerEventStructure>();
+		                    item = new TrackerEventStructure {unsignedInt = bitReader.Read(20)};
+ 							arrayList.Add(item);
+							item = new TrackerEventStructure {unsignedInt = bitReader.Read(20)};
+							arrayList.Add(item);
+		                    item = new TrackerEventStructure {vInt = bitReader.Read(32) - 2147483648};
+							arrayList.Add(item);
+
+		                    gameEvent.data.array[6].array = arrayList.ToArray();
+
                             break;
                         case GameEventType.CHeroTalentSelectedEvent:
                             gameEvent.data = new TrackerEventStructure { unsignedInt = bitReader.Read(32) };
@@ -343,7 +365,8 @@ namespace Heroes.ReplayParser
                             gameEvent.data = new TrackerEventStructure { unsignedInt = bitReader.Read(1) };
                             break;
                         default:
-                            throw new NotImplementedException();
+                            Debug.WriteLine("Unown type: " + gameEvent.eventType);
+							continue;
                     }
 
                     bitReader.AlignToByte();

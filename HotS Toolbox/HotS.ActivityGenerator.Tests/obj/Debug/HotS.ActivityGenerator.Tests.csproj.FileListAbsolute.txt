@@ -1,0 +1,10 @@
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS.ActivityGenerator.Tests\bin\Debug\HotS.ActivityGenerator.Tests.dll
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS.ActivityGenerator.Tests\bin\Debug\HotS.ActivityGenerator.Tests.pdb
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS.ActivityGenerator.Tests\bin\Debug\Heroes.ReplayParser.dll
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS.ActivityGenerator.Tests\bin\Debug\HotS.ActivityGenerator.dll
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS.ActivityGenerator.Tests\bin\Debug\MpqLib.dll
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS.ActivityGenerator.Tests\bin\Debug\Heroes.ReplayParser.pdb
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS.ActivityGenerator.Tests\bin\Debug\HotS.ActivityGenerator.pdb
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS.ActivityGenerator.Tests\obj\Debug\HotS.ActivityGenerator.Tests.csprojResolveAssemblyReference.cache
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS.ActivityGenerator.Tests\obj\Debug\HotS.ActivityGenerator.Tests.dll
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS.ActivityGenerator.Tests\obj\Debug\HotS.ActivityGenerator.Tests.pdb

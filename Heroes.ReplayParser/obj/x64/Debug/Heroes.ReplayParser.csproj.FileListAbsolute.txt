@@ -1,0 +1,4 @@
+D:\source\c#\Heroes.ReplayParser\Heroes.ReplayParser\bin\x64\Debug\Heroes.ReplayParser.dll
+D:\source\c#\Heroes.ReplayParser\Heroes.ReplayParser\bin\x64\Debug\Heroes.ReplayParser.pdb
+D:\source\c#\Heroes.ReplayParser\Heroes.ReplayParser\obj\x64\Debug\Heroes.ReplayParser.dll
+D:\source\c#\Heroes.ReplayParser\Heroes.ReplayParser\obj\x64\Debug\Heroes.ReplayParser.pdb

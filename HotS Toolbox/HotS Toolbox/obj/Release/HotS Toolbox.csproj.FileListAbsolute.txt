@@ -1,0 +1,21 @@
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\bin\Release\HotS Toolbox.exe.config
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\Release\HotS Toolbox.csprojResolveAssemblyReference.cache
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\Release\MainWindow.baml
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\Release\MainWindow.g.cs
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\Release\App.g.cs
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\Release\HotS Toolbox_MarkupCompile.cache
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\Release\HotS Toolbox.g.resources
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\Release\HotS_Toolbox.Properties.Resources.resources
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\Release\HotS Toolbox.csproj.GenerateResource.Cache
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\bin\Release\HotS Toolbox.exe
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\bin\Release\HotS Toolbox.pdb
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\bin\Release\Heroes.ReplayParser.dll
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\bin\Release\HotS.ActivityGenerator.dll
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\bin\Release\MpqLib.dll
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\bin\Release\HtmlAgilityPack.dll
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\bin\Release\Heroes.ReplayParser.pdb
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\bin\Release\HotS.ActivityGenerator.pdb
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\bin\Release\HtmlAgilityPack.pdb
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\bin\Release\HtmlAgilityPack.xml
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\Release\HotS Toolbox.exe
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\Release\HotS Toolbox.pdb

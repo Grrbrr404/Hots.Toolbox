@@ -1,0 +1,13 @@
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS.ActivityGenerator.Tests\bin\x86\Release\HotS.ActivityGenerator.Tests.dll
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS.ActivityGenerator.Tests\bin\x86\Release\HotS.ActivityGenerator.Tests.pdb
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS.ActivityGenerator.Tests\bin\x86\Release\Heroes.ReplayParser.dll
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS.ActivityGenerator.Tests\bin\x86\Release\HotS.ActivityGenerator.dll
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS.ActivityGenerator.Tests\bin\x86\Release\MpqLib.dll
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS.ActivityGenerator.Tests\bin\x86\Release\HtmlAgilityPack.dll
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS.ActivityGenerator.Tests\bin\x86\Release\Heroes.ReplayParser.pdb
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS.ActivityGenerator.Tests\bin\x86\Release\HotS.ActivityGenerator.pdb
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS.ActivityGenerator.Tests\bin\x86\Release\HtmlAgilityPack.pdb
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS.ActivityGenerator.Tests\bin\x86\Release\HtmlAgilityPack.xml
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS.ActivityGenerator.Tests\obj\x86\Release\HotS.ActivityGenerator.Tests.csprojResolveAssemblyReference.cache
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS.ActivityGenerator.Tests\obj\x86\Release\HotS.ActivityGenerator.Tests.dll
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS.ActivityGenerator.Tests\obj\x86\Release\HotS.ActivityGenerator.Tests.pdb

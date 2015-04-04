@@ -1,0 +1,21 @@
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\bin\x86\Debug\HotS Toolbox.exe.config
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\bin\x86\Debug\HotS Toolbox.exe
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\bin\x86\Debug\HotS Toolbox.pdb
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\x86\Debug\MainWindow.baml
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\x86\Debug\MainWindow.g.cs
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\x86\Debug\App.g.cs
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\x86\Debug\HotS Toolbox_MarkupCompile.cache
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\x86\Debug\HotS Toolbox.g.resources
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\x86\Debug\HotS_Toolbox.Properties.Resources.resources
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\x86\Debug\HotS Toolbox.csproj.GenerateResource.Cache
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\x86\Debug\HotS Toolbox.exe
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\x86\Debug\HotS Toolbox.pdb
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\x86\Debug\HotS Toolbox.csprojResolveAssemblyReference.cache
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\bin\x86\Debug\Heroes.ReplayParser.dll
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\bin\x86\Debug\HotS.ActivityGenerator.dll
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\bin\x86\Debug\MpqLib.dll
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\bin\x86\Debug\HtmlAgilityPack.dll
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\bin\x86\Debug\Heroes.ReplayParser.pdb
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\bin\x86\Debug\HotS.ActivityGenerator.pdb
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\bin\x86\Debug\HtmlAgilityPack.pdb
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\bin\x86\Debug\HtmlAgilityPack.xml

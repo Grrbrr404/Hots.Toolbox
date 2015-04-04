@@ -12,6 +12,8 @@
         /// <summary> Gets the speed the game was played at. </summary>
         public GameSpeed GameSpeed { get; set; }
 
+	    public bool IsChecked { get; set; }
+
         /// <summary> Gets the type of game this replay covers, whether it was a private or open match. </summary>
         public GameMode GameMode { get; set; }
 
@@ -64,6 +66,7 @@
         {
             ClientList = new Player[0x10];
             TimelineEvents = new List<TimelineEvent>();
+			TrackerEvents = new List<TrackerEvent>();
         }
     }
 }

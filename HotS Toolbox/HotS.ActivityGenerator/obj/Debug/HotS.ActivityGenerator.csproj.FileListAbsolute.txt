@@ -1,0 +1,8 @@
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS.ActivityGenerator\bin\Debug\HotS.ActivityGenerator.dll
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS.ActivityGenerator\bin\Debug\HotS.ActivityGenerator.pdb
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS.ActivityGenerator\obj\Debug\HotS.ActivityGenerator.csprojResolveAssemblyReference.cache
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS.ActivityGenerator\obj\Debug\HotS.ActivityGenerator.dll
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS.ActivityGenerator\obj\Debug\HotS.ActivityGenerator.pdb
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS.ActivityGenerator\bin\Debug\MpqLib.dll
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS.ActivityGenerator\bin\Debug\Heroes.ReplayParser.dll
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS.ActivityGenerator\bin\Debug\Heroes.ReplayParser.pdb

@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 
 namespace Heroes.ReplayParser
@@ -17,28 +18,33 @@ namespace Heroes.ReplayParser
         /// <param name="buffer"> The buffer containing the replay.tracker.events file. </param>
         public static void Parse(Replay replay, byte[] buffer)
         {
-            replay.TrackerEvents = new List<TrackerEvent>();
+            
 
             var currentFrameCount = 0;
             using (var stream = new MemoryStream(buffer))
                 using (var reader = new BinaryReader(stream))
                     while (stream.Position < stream.Length)
                     {
-                        var intro = reader.ReadBytes(3); // Always 03 00 09 (Edit: Middle digit seems to have at least two possible values)
-                        if (intro[0] != 3 || /* intro[1] != 0 || */ intro[2] != 9)
-                            throw new Exception("Unexpected data in tracker event");
+	                    try {
+		                    var intro = reader.ReadBytes(3); // Always 03 00 09 (Edit: Middle digit seems to have at least two possible values)
+		                    if (intro[0] != 3 || /* intro[1] != 0 || */ intro[2] != 9)
+			                    continue;
 
-                        currentFrameCount += (int)TrackerEventStructure.read_vint(reader);
+		                    currentFrameCount += (int)TrackerEventStructure.read_vint(reader);
 
-                        var trackerEvent = new TrackerEvent { TimeSpan = new TimeSpan(0, 0, (int)(currentFrameCount / 16.0)) };
+		                    var trackerEvent = new TrackerEvent { TimeSpan = new TimeSpan(0, 0, (int)(currentFrameCount / 16.0)) };
 
-                        intro = reader.ReadBytes(1); // Always 09
-                        if (intro[0] != 9)
-                            throw new Exception("Unexpected data in tracker event");
+		                    intro = reader.ReadBytes(1); // Always 09
+		                    if (intro[0] != 9)
+								continue;
 
-                        trackerEvent.TrackerEventType = (TrackerEventType)TrackerEventStructure.read_vint(reader);
-                        trackerEvent.Data = new TrackerEventStructure(reader);
-                        replay.TrackerEvents.Add(trackerEvent);
+		                    trackerEvent.TrackerEventType = (TrackerEventType)TrackerEventStructure.read_vint(reader);
+		                    trackerEvent.Data = new TrackerEventStructure(reader);
+		                    replay.TrackerEvents.Add(trackerEvent);
+	                    }
+	                    catch (Exception e) {
+		                    Debug.WriteLine(e);
+	                    }
                     }
 
             replay.Frames = currentFrameCount;
@@ -47,7 +53,8 @@ namespace Heroes.ReplayParser
             // Need to verify the player ID in the below code - particularly Custom Games where observers can take up spots in the client list
             replay.TimelineEvents.AddRange(replay.TrackerEvents.Where(i =>
                 i.TrackerEventType == TrackerEventType.CreepColor &&
-                i.Data.dictionary[1].blobText == "VehicleDragonUpgrade")
+                i.Data.dictionary != null &&
+				i.Data.dictionary[1].blobText == "VehicleDragonUpgrade")
                 .Select(i => new TimelineEvent {
                     TimeSpan = i.TimeSpan,
                     TimelineEventType = TimelineEventType.MapMechanicDragonShireDragon,
@@ -118,7 +125,8 @@ namespace Heroes.ReplayParser
             {
                 case 0x00: // array
                     array = new TrackerEventStructure[read_vint(reader)];
-                    for (var i = 0; i < array.Length; i++)
+		            var memory = GC.GetTotalMemory(false)/1024/1024;
+					for (var i = 0; i < array.Length; i++)
                         array[i] = new TrackerEventStructure(reader);
                     break;
                 case 0x01: // bitarray, weird alignment requirements - haven't seen it used yet so not spending time on it
@@ -137,10 +145,17 @@ namespace Heroes.ReplayParser
                         optionalData = new TrackerEventStructure(reader);
                     break;
                 case 0x05: // struct
-                    dictionary = new Dictionary<int, TrackerEventStructure>();
-                    var dictionarySize = read_vint(reader);
-                    for (var i = 0; i < dictionarySize; i++)
-                        dictionary[(int) read_vint(reader)] = new TrackerEventStructure(reader);
+					try {
+						var dictionarySize = Convert.ToInt32(read_vint(reader));
+						dictionary = new Dictionary<int, TrackerEventStructure>(dictionarySize);
+			            for (var i = 0; i < dictionarySize; i++) {
+				            var index = (int) read_vint(reader);
+				            dictionary[index] = new TrackerEventStructure(reader);
+			            }
+		            }
+		            catch (Exception e) {
+			            Debug.WriteLine(e.Message);
+		            }
                     break;
                 case 0x06: // u8
                     unsignedInt = reader.ReadByte();
