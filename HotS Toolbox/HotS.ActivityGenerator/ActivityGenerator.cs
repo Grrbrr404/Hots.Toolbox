@@ -21,36 +21,36 @@ namespace HotS.ActivityGenerator {
 				.AppendLine()
 				.AppendLine("Members I played with:");
 
-			var listOfPlayersPlayedWith = GetAllPlayersPlayedWith(replays);
+			var listOfMembersPlayedWith = GetAllPlayersPlayedWith(replays);
 
-			foreach (var playerName in listOfPlayersPlayedWith) {
-				templateBuilder.AppendFormat("@{0} ", playerName);
+			foreach (var playerName in listOfMembersPlayedWith) {
+				templateBuilder.AppendFormat("@{0} ", playerName.ForumName);
 			}
 
 			return templateBuilder.ToString();
 		}
 
-		private List<string> GetAllPlayersPlayedWith(IEnumerable<Replay> replays) {
-			var listOfPlayersPlayedWith = new List<string>();
+		private List<ClanMember> GetAllPlayersPlayedWith(IEnumerable<Replay> replays) {
+			var listOfMembersPlayedWith = new List<ClanMember>();
 			var rosterProvider = new RosterProvider();
-			var playerNames = rosterProvider.GetPlayerNames();
+			var members = rosterProvider.GetMembers();
 
 			if (replays.Any()) {
-				foreach (var name in playerNames) {
+				foreach (var player in members) {
 					var playerFound = false;
 					foreach (var replay in replays) {
-						if (replay.Players.Any(p => name.StartsWith(p.Name))) {
+						if (replay.Players.Any(p => player.BnetName.StartsWith(p.Name))) {
 							playerFound = true;
 							break;
 						}
 					}
 					if (playerFound) {
-						listOfPlayersPlayedWith.Add(name);
+						listOfMembersPlayedWith.Add(player);
 					}
 				}
 			}
 
-			return listOfPlayersPlayedWith;
+			return listOfMembersPlayedWith;
 		}
 	}
 }

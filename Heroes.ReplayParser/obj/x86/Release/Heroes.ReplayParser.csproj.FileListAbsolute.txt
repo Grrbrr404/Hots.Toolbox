@@ -2,3 +2,4 @@ D:\source\c#\Heroes.ReplayParser\Heroes.ReplayParser\bin\x86\Release\Heroes.Repl
 D:\source\c#\Heroes.ReplayParser\Heroes.ReplayParser\bin\x86\Release\Heroes.ReplayParser.pdb
 D:\source\c#\Heroes.ReplayParser\Heroes.ReplayParser\obj\x86\Release\Heroes.ReplayParser.dll
 D:\source\c#\Heroes.ReplayParser\Heroes.ReplayParser\obj\x86\Release\Heroes.ReplayParser.pdb
+D:\source\c#\Heroes.ReplayParser\Heroes.ReplayParser\obj\x86\Release\Heroes.ReplayParser.csprojResolveAssemblyReference.cache

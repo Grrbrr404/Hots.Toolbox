@@ -19,3 +19,8 @@ D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\x86\Release\HotS_
 D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\x86\Release\HotS Toolbox.csproj.GenerateResource.Cache
 D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\x86\Release\HotS Toolbox.exe
 D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\x86\Release\HotS Toolbox.pdb
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\bin\x86\Release\HotS Toolbox.exe.manifest
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\bin\x86\Release\HotS Toolbox.application
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\x86\Release\HotS Toolbox.TrustInfo.xml
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\x86\Release\HotS Toolbox.exe.manifest
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\x86\Release\HotS Toolbox.application

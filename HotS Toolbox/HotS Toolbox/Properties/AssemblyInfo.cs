@@ -8,9 +8,9 @@ using System.Windows;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("HotS Toolbox")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Collection of HoTs tools")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("grrbrr.de")]
 [assembly: AssemblyProduct("HotS Toolbox")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]

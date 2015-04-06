@@ -14,20 +14,27 @@ namespace HotS.ActivityGenerator {
 
 		}
 
-		public IEnumerable<string> GetPlayerNames() {
+		public IEnumerable<ClanMember> GetMembers() {
 			var web = new HtmlWeb();
 			var doc = web.Load(PageUrl);
-			var result = new List<string>();
+			var result = new List<ClanMember>();
 			var playerBattleTags = doc.DocumentNode.SelectNodes("//table/tbody/tr/td[3]");
+			var memberRosterColumns = doc.DocumentNode.SelectNodes("/html[1]/body[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[5]/div[1]/div[1]/blockquote[1]/div[2]/div[2]/table[1]/tbody[1]/tr");
+			memberRosterColumns.RemoveAt(0); // remove because column 0 is the table header and does not contain usefull data
+			var columnForumName = 1;
+			var columnBnetName = 4;
 
-			if (playerBattleTags.Any()) {
-				foreach (var playerBattleTag in playerBattleTags) {
-					var text = string.IsNullOrEmpty(playerBattleTag.InnerText) ? "<unkown>" : playerBattleTag.InnerText;
-					var hashTagIndex = text.IndexOf('#');
-					if (hashTagIndex >= 0) {
-						text = text.Substring(0, hashTagIndex);
+
+			if (memberRosterColumns.Any()) {
+				foreach (var column in memberRosterColumns) {
+					if (column.ChildNodes.Count >= 5) {
+						var bnetName = column.ChildNodes[columnBnetName].InnerText;
+						var forumName = column.ChildNodes[columnForumName].InnerText;
+						if (forumName.Contains("[zG]"))
+							forumName = forumName.Replace("[zG]", "");
+						var member = new ClanMember() { BnetName = bnetName, ForumName = forumName };
+						result.Add(member);
 					}
-					result.Add(text);
 				}
 			}
 			return result;

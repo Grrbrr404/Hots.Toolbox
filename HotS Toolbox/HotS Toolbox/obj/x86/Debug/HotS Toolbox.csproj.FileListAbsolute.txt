@@ -19,3 +19,8 @@ D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\bin\x86\Debug\Heroes.
 D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\bin\x86\Debug\HotS.ActivityGenerator.pdb
 D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\bin\x86\Debug\HtmlAgilityPack.pdb
 D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\bin\x86\Debug\HtmlAgilityPack.xml
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\bin\x86\Debug\HotS Toolbox.exe.manifest
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\bin\x86\Debug\HotS Toolbox.application
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\x86\Debug\HotS Toolbox.exe.manifest
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\x86\Debug\HotS Toolbox.application
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\x86\Debug\HotS Toolbox.TrustInfo.xml

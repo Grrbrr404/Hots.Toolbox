@@ -7,7 +7,7 @@ namespace HotS.ActivityGenerator.Tests {
 		[TestMethod]
 		public void GetAllPlayers_Test() {
 			var provider = new RosterProvider();
-			var result = provider.GetPlayerNames();
+			var result = provider.GetMembers();
 			Assert.IsTrue(result.Any());
 		}
 	}
