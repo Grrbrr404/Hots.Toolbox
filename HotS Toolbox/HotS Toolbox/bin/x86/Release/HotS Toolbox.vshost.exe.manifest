@@ -45,13 +45,13 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Heroes.ReplayParser.dll" size="38912">
-      <assemblyIdentity name="Heroes.ReplayParser" version="1.0.5580.26763" language="neutral" processorArchitecture="x86" />
+      <assemblyIdentity name="Heroes.ReplayParser" version="1.0.5574.1842" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>dkyFckVZp4mWIlyoX4e3eYNJ/ds=</dsig:DigestValue>
+        <dsig:DigestValue>4WdOqyJO4eSUCBDd1sCUvCzVrPc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -63,7 +63,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>hvD6+a2y67x9Q8vaUmCOJXb+4VY=</dsig:DigestValue>
+        <dsig:DigestValue>RfgJkGcH9PdMQu6p+Uj1NbIO2JI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -75,7 +75,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>OAlSPaKoaZFwzu2GK53lyofw15M=</dsig:DigestValue>
+        <dsig:DigestValue>KrC9+/Ht+i8CYrNMMQsTD3371FA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -38,8 +38,9 @@ namespace HotS.ActivityGenerator {
 			if (replays.Any()) {
 				foreach (var player in members) {
 					var playerFound = false;
+					
 					foreach (var replay in replays) {
-						if (replay.Players.Any(p => player.BnetName.StartsWith(p.Name))) {
+						if (replay.Players.Any(p => player.BnetName.ToUpperInvariant().StartsWith(p.Name.ToUpperInvariant()))) {
 							playerFound = true;
 							break;
 						}
