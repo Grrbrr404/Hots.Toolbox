@@ -60,5 +60,10 @@ namespace HotS_Toolbox {
 			Properties.Settings.Default.Save();
 			MessageBox.Show(this, "Activity Report has been generated and copied to your clipboard. Just paste it where you want.");
 		}
+
+		private void MenuItem_Click(object sender, RoutedEventArgs e) {
+			var infoWindow = new InfoWindow();
+			infoWindow.Show();
+		}
 	}
 }

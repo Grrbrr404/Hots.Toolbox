@@ -1,0 +1,41 @@
+﻿<Window x:Class="HotS_Toolbox.InfoWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ChangeLog" Height="379.295" Width="640.969">
+  <Grid>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="*" />
+    </Grid.ColumnDefinitions>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="*"/>
+    </Grid.RowDefinitions>
+    <ScrollViewer>
+      <RichTextBox >
+        <FlowDocument>
+          <Paragraph>
+            <Run Text="ChangeLog" FontWeight="Bold" FontSize="20" /> <LineBreak />
+            <LineBreak />
+
+            <Run Text="18.04.2015" FontWeight="Bold" />
+            <LineBreak />
+            - The Roster Download Component does now support multiple nick names. This is required beause Grrbrr likes to have two Accounts :P You need to seperate your accounts with ";" sign if you have multiple. Example:  Grrbrr#2996;Fab7#2737<LineBreak />
+            - Added this ChangeLog<LineBreak />
+            <LineBreak />
+
+            <Run Text="12.04.2015" FontWeight="Bold" />
+            <LineBreak />
+            - Forum Name and Bnet Names extracted from replays are now transformed into upper case before getting compared with each other. This helps because my Activity Report did not show Equit and thats beause his name is written in lower case. <LineBreak />
+            <LineBreak />
+            
+            <Run Text="06.04.2015" FontWeight="Bold" />
+            <LineBreak />
+            - Now using forum names for activity report instead of Battle.net names. This way the forum tags should work correctly<LineBreak />
+            - Added installer with auto update function (You may have to accept some dialogs because I don't own a offical publisher certificat)<LineBreak />
+            - New download Link<LineBreak />
+          </Paragraph>
+        </FlowDocument>
+      </RichTextBox>
+    </ScrollViewer>
+
+  </Grid>
+</Window>

@@ -28,12 +28,17 @@ namespace HotS.ActivityGenerator {
 			if (memberRosterColumns.Any()) {
 				foreach (var column in memberRosterColumns) {
 					if (column.ChildNodes.Count >= 5) {
-						var bnetName = column.ChildNodes[columnBnetName].InnerText;
-						var forumName = column.ChildNodes[columnForumName].InnerText;
-						if (forumName.Contains("[zG]"))
-							forumName = forumName.Replace("[zG]", "");
-						var member = new ClanMember() { BnetName = bnetName, ForumName = forumName };
-						result.Add(member);
+						var bnetNames = column.ChildNodes[columnBnetName].InnerText.Split(new[] { ';' });
+
+						if (bnetNames.Any()) {
+							foreach (var bnetName in bnetNames) {
+								var forumName = column.ChildNodes[columnForumName].InnerText;
+								if (forumName.Contains("[zG]"))
+									forumName = forumName.Replace("[zG]", "");
+								var member = new ClanMember() { BnetName = bnetName, ForumName = forumName };
+								result.Add(member);
+							}
+						}
 					}
 				}
 			}

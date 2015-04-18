@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="HotS Toolbox.exe" version="1.0.0.13" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
+  <asmv1:assemblyIdentity name="HotS Toolbox.exe" version="1.0.0.14" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
   <description asmv2:publisher="Nicolai Schönberg" asmv2:product="Hots Toolbox" asmv2:supportUrl="http://grrbrr.de/" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
@@ -45,37 +45,37 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Heroes.ReplayParser.dll" size="38912">
-      <assemblyIdentity name="Heroes.ReplayParser" version="1.0.5580.26763" language="neutral" processorArchitecture="x86" />
+      <assemblyIdentity name="Heroes.ReplayParser" version="1.0.5586.21920" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>dkyFckVZp4mWIlyoX4e3eYNJ/ds=</dsig:DigestValue>
+        <dsig:DigestValue>+QNwez14t0Vfy4bjGwT61XnNbD0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HotS Toolbox.exe" size="12168">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HotS Toolbox.exe" size="14728">
       <assemblyIdentity name="HotS Toolbox" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>hvD6+a2y67x9Q8vaUmCOJXb+4VY=</dsig:DigestValue>
+        <dsig:DigestValue>LQGnwnbFt28HvAg2lGRfQ4dmT58=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HotS.ActivityGenerator.dll" size="10240">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HotS.ActivityGenerator.dll" size="10752">
       <assemblyIdentity name="HotS.ActivityGenerator" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>OAlSPaKoaZFwzu2GK53lyofw15M=</dsig:DigestValue>
+        <dsig:DigestValue>3Ihl+37Yz77vBN4ZHt/233J9/vE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

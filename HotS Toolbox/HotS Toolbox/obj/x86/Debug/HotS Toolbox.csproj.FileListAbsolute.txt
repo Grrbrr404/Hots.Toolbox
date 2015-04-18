@@ -24,3 +24,5 @@ D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\bin\x86\Debug\HotS To
 D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\x86\Debug\HotS Toolbox.exe.manifest
 D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\x86\Debug\HotS Toolbox.application
 D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\x86\Debug\HotS Toolbox.TrustInfo.xml
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\x86\Debug\InfoWindow.baml
+D:\source\c#\Heroes.ReplayParser\HotS Toolbox\HotS Toolbox\obj\x86\Debug\InfoWindow.g.cs

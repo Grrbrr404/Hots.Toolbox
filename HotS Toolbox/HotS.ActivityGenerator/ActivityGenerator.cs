@@ -38,7 +38,7 @@ namespace HotS.ActivityGenerator {
 			if (replays.Any()) {
 				foreach (var player in members) {
 					var playerFound = false;
-					
+
 					foreach (var replay in replays) {
 						if (replay.Players.Any(p => player.BnetName.ToUpperInvariant().StartsWith(p.Name.ToUpperInvariant()))) {
 							playerFound = true;
@@ -46,7 +46,9 @@ namespace HotS.ActivityGenerator {
 						}
 					}
 					if (playerFound) {
-						listOfMembersPlayedWith.Add(player);
+						if (listOfMembersPlayedWith.Any(p => p.ForumName == player.ForumName) == false) {
+							listOfMembersPlayedWith.Add(player);
+						}
 					}
 				}
 			}
